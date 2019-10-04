@@ -1,0 +1,89 @@
+body {
+background-color: #ffd500;
+background-image: url("https://www.transparenttextures.com/patterns/subtle-stripes.png");
+ background-attachment: fixed;
+	 font-size: 85px;
+   font-family: sans-serif;
+	 color: white;
+	 text-align: center;
+}
+.blended_grid {
+  display: block;
+  width: 1000px;
+  overflow: auto;
+  margin: 50px auto 0 auto;
+}
+
+.link {
+  font-size: 15px;
+  text-align: right;
+}
+.pageHeader {
+   font-family: , sans-serif;
+  background-color: blue;
+  float: left;
+  clear: none;
+  height:100px;
+  width:1000px;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: normal;
+  display: inline-block;
+  border-radius: 30px;
+}
+
+.pageLeftMenu {
+   font-family: sans-serif;
+  background-color: green;
+  color: white;
+  float: left;
+  clear: none;
+  height: 800px;
+  width: 150px;
+  font-size: 30px;
+  border-radius: 30px;
+}
+.pageContent {
+  background-color: pink;
+  float: left;
+  clear: none;
+  height: 800px;
+  width: 700px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 55px;
+  color: white;
+}
+.pageRightMenu {
+  background-color: orange;
+  float: left;
+  clear: none;
+  height: 800px;
+  width: 150px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 35px;
+  color: white;
+}
+
+.pageFooter {
+  background-color: powderblue;
+  float: left;
+  height: 100px;
+  width: 1000px;
+  text-align: center;
+  font-size: 35px;
+  border-radius: 35px;
+}
+#help-box {
+  color: black;
+  border: solid 0.5px;
+  position: fixed;
+  bottom: 55%;
+  right: 35px;
+  text-align: center;
+  font-size: 10px;
+  border-radius: 20px;
+}

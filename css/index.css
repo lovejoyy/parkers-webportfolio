@@ -1,0 +1,64 @@
+body{
+  background-color: #ff14b5;
+  background-image: url("https://www.transparenttextures.com/patterns/dust.png");
+ 
+}
+
+h1 {
+	color: white;
+ font-family: "Cormorant" sans-serif;
+	font-size: 65px;
+	text-align: center;
+	margin-top: 0px;
+
+}
+
+img {
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+	-webkit-filter: blur(7px); /* Safari 6.0 - 9.0 */
+  filter: blur(1px);
+}
+div {
+	text-align: center-right;
+  color: white;
+	height: 50px;
+	width: 200px;
+  font-size: 35px;
+	border: solid 2px;
+}
+
+
+table {
+  color: white;
+  font-family: "Cormorant" sans-serif;
+	border: 15px black;
+	margin: 100px;
+  border-collapse: collapse;
+	width: 1300px;
+}
+  th, th {
+	text-align: center;
+	padding: 20px;
+	color: white;
+	border: dotted 3px;
+}
+
+tr {
+	color: white;
+	font-size: 15px;
+	text-align: center;
+
+}
+
+td {
+	border:dotted 3px;
+}
+
+tr:nth-child(odd) {
+	background-color:springgreen;
+
+}
+
